@@ -1,0 +1,43 @@
+git branch -> lists current branch
+git checkout master -> switches branch to desired branch
+git branch use-case-001 -> makes a new branch   ==> use this convention
+git pull -> pull most updated version of master branch
+            - sometimes pulls down a merge conflict 
+
+# merge master branch into feature branch
+ NOT MASTER branch
+
+git checkout use-case-002
+the active branch that i'm in is the one that is being merged into
+
+git merge master ==> conflict
+consolidates the feature w the master branch
+<<<HEAD current branch
+>>>> Master branch youre merging from
+
+IF you want to keep both 
+do the staging and commit process again
+
+IF You made a local new branch that you want to push to remote origin = remote branch
+git push --set-upstream origin use-case-002
+
+To merge your branch w master
+Select branch
+press button compare and pul request
+Title
+Comment what you want to be reviewed by teammate
+create pull request
+everyone comments if its ok
+commit and merge into master
+
+
+
+AFter merging run tests before pushing to master to make sure it works
+
+
+
+
+
+
+
+
